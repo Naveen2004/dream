@@ -1,0 +1,120 @@
+body{
+  color: #40514E;
+  margin:0;
+  text-align: center;
+  font-family:cursive;
+}
+h1{
+  color: #66BFBF;
+  margin: 0 auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+}
+h2{
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+    }
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+span{
+  text-decoration: underline;
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width:4%;
+  margin: 100px auto 100px auto;
+}
+.top-container{
+  background-color: #E4F6F6;
+  padding-top: 100px;
+  position: relative;
+}
+.middle-container{
+  margin: 100px 0;
+}
+.bottom-container{
+  background-color:#66BFBF;
+  padding: 50px 0 20px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.top-cloud{
+    position: absolute;
+    top: 40px;
+    right: 300px;
+  }
+
+.profile img{
+  padding-top: 30px;
+  width: 200px;
+
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.giphy{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+
+}
+.chili{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+
+}
+.intro{
+  width: 50%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 18px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #17aeb3;
+  background-image: -webkit-linear-gradient(top, #17aeb3, #34d9d1);
+  background-image: -moz-linear-gradient(top, #17aeb3, #34d9d1);
+  background-image: -ms-linear-gradient(top, #17aeb3, #34d9d1);
+  background-image: -o-linear-gradient(top, #17aeb3, #34d9d1);
+  background-image: linear-gradient(to bottom, #17aeb3, #34d9d1);
+  text-decoration: none;
+}
+.footer-link{
+  text-decoration: none;
+  color:#11999E;
+
+  }
